@@ -1,9 +1,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.module.js';
 import { createScene, createCamera, createRenderer, addLights } from './scene.js';
-import { createCube } from './cube.js';
-import { setupInteractions } from './interactions.js';
-import { updateContent } from './content.js';
-import { faceContents, faceLinks } from './data.js';
+import { createCube } from 'cube.js';
+import { setupInteractions } from 'interactions.js';
+import { updateContent } from 'content.js';
+import { faceContents, faceLinks } from 'data.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
